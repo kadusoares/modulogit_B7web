@@ -1,0 +1,28 @@
+.box {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+    background-color: #999;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}

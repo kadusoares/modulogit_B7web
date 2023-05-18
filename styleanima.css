@@ -1,0 +1,29 @@
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    margin:auto;
+    margin-top:100px;
+    box-shadow: 5px 5px 5px #888888;
+    animation: rotate 4s ;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+body {
+    margin:0;
+}
+.exemplo {
+    width:150px;
+    height:150px;
+    background-color:green;
+    
+}
+
